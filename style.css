@@ -21,7 +21,8 @@
   --two-use-color: #5500cb;
 }
 body {
-  background-color: whitesmoke;
+   background-color: rgb(9, 5, 41);
+  background-image: url("img/banner-bg.png");
   background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -533,9 +534,10 @@ p {
 .report-container {
   min-height: 300px;
   max-width: 1200px;
-  background: white;
+ 
   margin: 0px auto 0px auto;
-  background-color: white;
+  background-color: transparent;
+    backdrop-filter: blur(5px);
   border-radius: 10px;
   box-shadow: 3px 3px 10px rgb(188, 188, 188);
   padding: 0px 0px 0px 0px;
