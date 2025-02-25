@@ -321,15 +321,24 @@ h1 {
  
   display: flex;
     align-items: center;
-    background-color: #1e1e1e;
+    background-color: grey;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px aqua;
     transition: transform 0.3s ease;
     width: 100%;
     max-width: 500px;
   
   
+}
+.card h3 {
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 10px;
+  color: white;
+  margin-bottom: 5px;
 }
 
 .card:hover {
